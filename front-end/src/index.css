@@ -83,7 +83,10 @@ button{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   cursor: pointer;
+  background-color: #f8f8f8;
+  cursor: pointer;
 }
+
 
 button.primary{
   background-color: gold; 
@@ -92,7 +95,9 @@ button.primary{
 button.block{
   width: 100%;
 }
-
+input:hover,
+select:hover,
+textarea:hover,
 button:hover{
   border: 0.1rem solid #232323;
 
@@ -108,6 +113,15 @@ a.brand{
   color: white;
   font-size: 3rem;
   font-weight: bold;
+}
+
+.badge{
+  background-color: #f02020;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 0.2rem 0.7rem;
+  font-size: 1.4rem;
+  margin-left: 0.2rem;
 }
 .row{
   display: flex;
