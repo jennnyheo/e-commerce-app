@@ -25,7 +25,7 @@ import ProductScreen from './screens/ProductScreen';
             </div>
         </header>
         <main>
-          <Route path='/cart/:id' component={CartScreen} />
+          <Route path='/cart/:id?' component={CartScreen} />
           <Route path='/product/:id' component={ProductScreen} />
           <Route path='/' component={HomeScreen} exact /> 
         </main>

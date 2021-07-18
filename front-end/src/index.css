@@ -142,6 +142,9 @@ a.brand{
   flex: 2 1 50rem;
 }
 
+.min-30{
+  min-width: 30rem;
+}
 img{
   border-radius: 0.5rem;
 }
@@ -155,6 +158,11 @@ img.large{
   width: 80%;
   margin-left: 3rem;
   margin-top: 0.3rem;
+}
+
+img.small{
+  max-width: 5rem;
+  width: 100%;
 }
 
 /* card */
