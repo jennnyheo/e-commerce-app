@@ -12,7 +12,7 @@ export default function HomeScreen() {
 
   useEffect(() => {
     dispatch(listProduct());
-  }, []);
+  }, [dispatch]);
 
   return (
     <div>
