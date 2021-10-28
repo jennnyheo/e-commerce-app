@@ -11,6 +11,7 @@ import {
 } from "./reducers/userReducers";
 
 const initialState = {
+  // check the state of use wheather the user is logged in or not (get state data from localstroage)
   userSignin: {
     userInfo: localStorage.getItem("userInfo")
       ? JSON.parse(localStorage.getItem("userInfo"))

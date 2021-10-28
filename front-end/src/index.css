@@ -30,12 +30,19 @@ body {
 
 header {
   grid-area: header;
-  background-color: #223322;
+  background-color: #5f7a61;
+  height: 100px;
 }
-
+.nameOfMarket {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  margin-left: 2rem;
+  color: #f1f7e7;
+}
 main {
   grid-area: main;
-  padding: 1rem;
+  padding: 2rem;
+  margin-top: 50px;
 }
 
 footer {
@@ -61,7 +68,7 @@ h1 {
 
 h2 {
   font-size: 1.6rem;
-  padding: 0.5rem 0;
+  padding: 0.1rem 0;
 }
 
 ul {
@@ -147,13 +154,27 @@ img {
   border-radius: 0.5rem;
 }
 
-img.medium {
-  max-width: 29rem;
+.card {
+  width: 280px;
+  height: 360px;
+}
+
+.productImgContainer {
+  width: 280px;
+  height: 240px;
+  text-align: center;
+  align-items: center;
+}
+.card a img.medium {
+  max-width: 280px;
+  max-height: 240px;
+  overflow: hidden;
   width: 100%;
+  height: 100%;
 }
 
 img.large {
-  width: 80%;
+  width: 70%;
   margin-left: 3rem;
   margin-top: 0.3rem;
 }
@@ -195,7 +216,7 @@ img.small {
 }
 
 .success {
-  color: green;
+  color: #bfd8b8;
 }
 
 .error {

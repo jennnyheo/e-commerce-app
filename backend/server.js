@@ -5,6 +5,8 @@ import userRouter from "./router/userRouter.js";
 import dotenv from "dotenv";
 
 dotenv.config();
+//it allows to use .env file
+
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

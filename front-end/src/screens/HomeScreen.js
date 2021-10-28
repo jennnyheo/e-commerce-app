@@ -27,6 +27,9 @@ export default function HomeScreen() {
           ))}
         </div>
       )}
+      <div>
+        <img src="/productImage/plant1.jpg" alt="" />
+      </div>
     </div>
   );
 }

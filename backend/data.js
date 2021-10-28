@@ -18,7 +18,7 @@ const data = {
   products: [
     {
       name: "this is the first product",
-      image: "https://www.placehold.it/250x280",
+      image: "productImage/plant1.jpg",
       price: 125,
       brand: "Jenny",
       category: "none",

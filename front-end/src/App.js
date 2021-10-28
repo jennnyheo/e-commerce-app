@@ -23,7 +23,7 @@ const App = () => {
         <header className="row">
           <div>
             <Link className="brand" to="/">
-              Market
+              <h2 className="nameOfMarket">Green Market</h2>
             </Link>
           </div>
           <div>
