@@ -282,3 +282,38 @@ form input {
 .loading {
   display: block !important;
 }
+.check-out-steps > div {
+  border-top: 0.3rem #c0c0c0 solid;
+  color: #c0c0c0;
+  flex: 1;
+  padding: 1rem;
+  font-weight: 700;
+}
+
+.check-out-steps > div.active {
+  border-top-color: green;
+  color: green;
+}
+.form > div > h1 {
+  margin-left: 0.5rem;
+}
+.form label,
+input {
+  display: block;
+  width: 95%;
+  margin: 1rem auto;
+}
+
+.form label {
+  font-weight: 700;
+}
+
+.form input {
+  border: 0.23rem solid #c0c0c0;
+  border-radius: 5px;
+  padding-left: 3px;
+}
+
+.form input::focus {
+  border: 0.23rem solid green;
+}
