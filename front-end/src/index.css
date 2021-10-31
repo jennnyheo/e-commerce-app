@@ -95,7 +95,7 @@ button {
 }
 
 button.primary {
-  background-color: gold;
+  background-color: #adc2a9;
 }
 
 button.block {
@@ -256,9 +256,9 @@ img.small {
   margin: 1rem 0;
 }
 
-form input {
+/* form input {
   height: 3.5rem;
-}
+} */
 .dropdown {
   display: inline-block;
   position: relative;
@@ -308,12 +308,43 @@ input {
   font-weight: 700;
 }
 
-.form input {
+.form input[type="text"] {
   border: 0.23rem solid #c0c0c0;
   border-radius: 5px;
   padding-left: 3px;
+  height: 3.5rem;
 }
 
 .form input::focus {
   border: 0.23rem solid green;
+}
+
+.form input[type="radio"] {
+  margin-top: 12px;
+}
+
+.paymentForm div {
+  display: flex;
+  width: 90%;
+}
+
+.paymentForm button {
+  width: 100%;
+}
+.orderCard {
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.orderCard-body {
+  margin: 20px;
+}
+
+button {
+  background-color: #adc2a9;
+  color: #fbfbfb;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
 }
